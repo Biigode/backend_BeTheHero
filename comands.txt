@@ -1,0 +1,5 @@
+npx knex init
+npx knex migrate:create nomeDaTabela
+npx knex migrate:latest      
+
+npx knex -- lista todos os comandos possiveis
